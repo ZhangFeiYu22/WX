@@ -1,0 +1,19 @@
+ <import src="../../library/mdinput/mdinput.wxml"/>
+ <view style="height:100%;width:100%;display: flex;flex-flow:column nowrap; align-items:center;">
+ 
+
+<block wx:for="{{inputs}}">
+    <template is="mdInput" data="{{...item.mdInput}}"/>
+</block>
+
+
+ <view style="margin-top:60rpx;" bindtap="onClickTest">Click me to get value</view>
+ <view>{{inputValue}}</view>
+ </view>
+ 
+
+
+
+
+    
+

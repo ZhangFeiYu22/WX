@@ -1,0 +1,14 @@
+<view class="root">
+    <view class="line">
+        <text>综合示例</text>
+        <view class="line-control">
+            <navigator url="../demo/index" class="item"><view class="item-inner">样式问题</view></navigator>
+            <navigator url="../weui/index" class="item"><view class="item-inner">weui</view></navigator>
+            <!--<navigator url="../qcloud/index" class="item"><view class="item-inner">聊天室</view></navigator>-->
+            <navigator url="../drawguessnew/index?roomid=5880e420fab00f41ddd63ce3" class="item"><view class="item-inner">你猜我画</view></navigator>
+            <!--<navigator url="../todo/index" class="item"><view class="item-inner">待办事项</view></navigator>-->
+            <navigator url="../video/index" class="item"><view class="item-inner">视频</view></navigator>
+            <!--<navigator url="../upload/index" class="item"><view class="item-inner">文件上传</view></navigator>-->
+        </view>
+    </view>
+</view>
